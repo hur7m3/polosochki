@@ -1,0 +1,9 @@
+Нарисовала 8x8.png в Paint
+
+Сделала картинку 4000x4000 из неё.
+convert -size 4000x4000 tile:8x8.png horizontal.png
+
+Умножила полосочки на оригинал и получила картинку с полосочками.
+convert orig.jpg horizontal.png -compose multiply -composite horizontal_orig.jpg
+
+
